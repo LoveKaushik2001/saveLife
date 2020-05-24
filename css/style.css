@@ -178,3 +178,26 @@ body {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
+
+/*naviagtion button*/
+.navigation_checkbox{
+    display: none;
+}
+
+.navigation_button{
+    background-color: #fff;
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    z-index: 2000; 
+    text-align: center;
+    cursor: pointer;
+}
+
+.navigation_icon{
+    position:relative;
+    margin-top:1.3rem;
+}
